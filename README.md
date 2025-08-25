@@ -62,11 +62,11 @@ multi_tenant_demo/
  - https://trello.com/b/gHvb7XjJ/crum-multi-tennacy
 
 ## 🎥 Video explicativo (entregado por Drive):
-- Nombre de la carpeta:
+- Nombre de la carpeta: Multi-tenant-techdist
 - Contenido:
   - 🎥 Video
   - 📄 Documentacion
-  - 🔗 Link del Drive: https
+  - 🔗 Link del Drive: https://drive.google.com/drive/folders/1IqI9AH0uQeek0gzKmurtHmVrikyGEbpV?usp=drive_link
 
 ## 🚀 Instalación y Configuración
 
