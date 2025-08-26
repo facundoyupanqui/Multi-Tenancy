@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mis productos</title>
+    <link rel="stylesheet" href="{% static 'css/product_list.css' %}">
+</head>
+<body>
+    <h2>Mis productos</h2>
+    <ul>
+        {% for product in products %}
+            <li>{{ product.name }}</li>
+        {% empty %}
+            <li>No tienes productos.</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'logout' %}">Cerrar sesión</a>
+</body>
+</html>
